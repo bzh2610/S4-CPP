@@ -1,0 +1,14 @@
+
+*.pbxproj
+
+*.xcworkspacedata
+
+*.xcuserstate
+
+S4PRC_PROG_01/S4PRC_PROG_01/makefile
+
+*.plist
+
+*.o
+
+*.d
