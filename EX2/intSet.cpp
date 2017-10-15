@@ -53,7 +53,7 @@ namespace prc {
             }
         }
         
-        return std::make_tuple(make_inset(intersection_name, intersection), make_inset(difference_name, difference_symetrique));
+        return std::make_tuple(std::move(make_inset(intersection_name, intersection)), std::move(make_inset(difference_name, difference_symetrique)));
         
     
     
